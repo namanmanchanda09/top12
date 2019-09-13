@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right,orange, yellow);
+    margin: 0px;
+}
+
+.header{
+    
+    height: 80px;
+}
+.header h1{
+    font-family: cabinsketch;
+    text-align: center;
+    font-size: 50px;
+}
+.menu{
+    height: 250px;
+    background-image: linear-gradient(to right, aqua,blue); 
+}
+.scrollmenu{
+    overflow: auto;
+    white-space: nowrap;s
+}
+
+.scrollmenu a{
+  background-color: chartreuse;
+  color: crimson;
+  padding: 80px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  font-family: cabinsketch;
+  font-size: 35px;
+  border-radius: 7%; 
+}
+.content{
+   background-image: linear-gradient(to right,yellow,cyan);
+   height: 1000px;
+}
